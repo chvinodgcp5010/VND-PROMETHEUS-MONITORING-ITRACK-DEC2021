@@ -2,3 +2,11 @@ Prometheus exporter will export data from services like postgres db and rabbitmq
 format.
 
 Prometheus use "pull mechanism"
+
+Promql : to write queries in prometheus . Grafana will connect to prometheus from "promql" query at backend.
+
+Majorly used prometheus for kubernetes and docker for monitoring
+
+communication from grafan UI and prometheus using "promql" queries.
+
+
