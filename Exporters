@@ -12,3 +12,9 @@ communication from grafan UI and prometheus using "promql" queries.
 For each and every service you need to use exporter , it converts date to prometheus understandable fromat
 
 https://prometheus.io/docs/instrumenting/exporters/
+
+if service deploy on "clusterip" you can port forward or expose over "nodeport" or "lb" to access on internet
+
+-> kubectl port-forward deployment prometheus-grafana 3000
+
+it expose over nodeport 
