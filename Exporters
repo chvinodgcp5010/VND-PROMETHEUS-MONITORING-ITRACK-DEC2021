@@ -9,4 +9,6 @@ Majorly used prometheus for kubernetes and docker for monitoring
 
 communication from grafan UI and prometheus using "promql" queries.
 
+For each and every service you need to use exporter , it converts date to prometheus understandable fromat
 
+https://prometheus.io/docs/instrumenting/exporters/
