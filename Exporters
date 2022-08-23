@@ -1,0 +1,4 @@
+Prometheus exporter will export data from services like postgres db and rabbitmq or any service and label or adjust or frame prometheus understandanable 
+format.
+
+Prometheus use "pull mechanism"
